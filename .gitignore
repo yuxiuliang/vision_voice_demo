@@ -1,0 +1,4 @@
+target/
+.venv_lib/
+first_frame_debug.png
+models/

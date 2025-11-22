@@ -1,0 +1,22 @@
+[package]
+name = "vision_voice_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+cpal = "0.15"
+crossbeam-channel = "0.5"
+num_cpus = "1"
+embedded-graphics = "0.8"
+image = "0.25"
+pixels = "0.14"
+winit = "0.28"
+nokhwa = { version = "0.10", default-features = false, features = ["input-msmf", "input-v4l", "output-threaded", "decoding"] }
+parking_lot = "0.12"
+tract-onnx = "0.21"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+whisper-rs = "0.10"
+dasp_sample = "0.11"
